@@ -1,0 +1,1 @@
+this is a basic css tutorial where I am given instructions and allowed to implement them in basic css
