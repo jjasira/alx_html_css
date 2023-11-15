@@ -1,0 +1,2 @@
+In this project, am going to implement a figma file from scratch and create a more advanced webapage.
+Compared to the previous project, I will be diving deeper into html and tackling more advanced topics.
