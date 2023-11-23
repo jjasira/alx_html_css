@@ -70,6 +70,7 @@ body {
 
 /* 3 video list styles */
 .video-container {
+    background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -81,7 +82,16 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+.video-thumbnail {
+    position: relative;
+}
 
+.play-button {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+
+}
 .tutorial-container {
     display: flex;
     flex-direction: column;
