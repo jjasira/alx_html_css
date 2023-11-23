@@ -156,3 +156,89 @@ h5 {
 .icon {
     text-align: center;
 }
+
+/* 3. results section styles */
+
+.results-container {
+    width: 1400px;
+    height: 650px;
+    flex-shrink: 0;
+    background-image: url("./images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+}
+
+.banner-card {
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    position: relative;
+    
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1200px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    padding: 10px;
+}
+
+
+/* 4.contact section styles */
+
+.contact-container {
+    width: 1400;
+    height: 1200px;
+}
+
+.contact-details {
+    width: 335px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 100px;
+    margin-left: 400px;
+}
+
+.contact-details .button-container {
+    margin-top: 2px;
+}
+
+input {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    color: var(--bgcolor);
+}
+
+/* 5. footer styles */
+.footer-section {
+    background-color: var(--bgcolor);
+}
+.footer-container {
+    
+    width: 1400px;
+    height: 249px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.copyright-container {
+    text-align: center;
+    
+}

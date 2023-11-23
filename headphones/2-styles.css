@@ -156,3 +156,36 @@ h5 {
 .icon {
     text-align: center;
 }
+
+/* 3. results section styles */
+
+.results-container {
+    width: 1400px;
+    height: 650px;
+    flex-shrink: 0;
+    background-image: url("./images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+}
+
+.banner-card {
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    position: relative;
+    
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1200px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    padding: 10px;
+}
