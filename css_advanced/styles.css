@@ -1,0 +1,170 @@
+/* 1 header styles */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url("./images/Object.png");
+    background-repeat: no-repeat;
+}
+
+.mission-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+.button-container {
+    text-align: center;
+}
+
+.banner-button {
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #C271FF;
+
+}
+
+.pros-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.the-pros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* 2 quote styles */
+
+.quote-container {
+    background: #C271FF;
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-image {
+    padding: 10px;
+}
+
+.quote-details {
+    width: 730px;
+    height: 158px;
+    flex-shrink: 0;
+}
+
+/* 3 video list styles */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.video-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tutorial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20px;
+}
+
+
+/* 4 membership styles */
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: #071629;
+}
+
+.smiley-faces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FAQ-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.frequently-asked-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* 5 footer styling  */
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: black;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: black;  
+    color: white;  
+  }  
+   
+  
+   
+  .fa-instagram {  
+    background: black;  
+    color: white;  
+  }  
+    
+    
+    
+   .footer-container {
+    background-color: #071629;
+   }
+    
+
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .copyright-container {
+    text-align: center;
+  }
