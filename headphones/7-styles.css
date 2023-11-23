@@ -1,6 +1,7 @@
 :root{
     --bgcolor: #071629;
     --linkhover: #FF6565;
+    --screenwidth: 100%;
 }
 
 a:hover {
@@ -36,11 +37,28 @@ h1, h2 {
     line-height: normal;
 }
 
+
+@media screen and (max-width: 768px){
+    .reviews-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* 1 header styles */
 header {
     background-image: url("./images/headphones_hero_1.jpg");
     background-repeat: no-repeat;
-    width: 1400px;
+    width: var(--screenwidth);
     height: 800px;
     flex-shrink: 0;
     
@@ -84,7 +102,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1400px;
+    width: var(--screenwidth);
     height: 313px;
     flex-shrink: 0 ;
     margin: 50px;
@@ -104,7 +122,7 @@ button {
 /* 2 styles for what we do section */
 
 .What-we-do-container {
-    width: 1400px;
+    width: var(--screenwidth);
     height: 3006px;
     background: #FFFFFF;
     align-items: center;
@@ -160,7 +178,7 @@ h5 {
 /* 3. results section styles */
 
 .results-container {
-    width: 1400px;
+    width: var(--screenwidth);
     height: 650px;
     flex-shrink: 0;
     background-image: url("./images/headphones_hero_2.jpg");
@@ -194,7 +212,7 @@ h5 {
 /* 4.contact section styles */
 
 .contact-container {
-    width: 1400;
+    width: var(--screenwidth);
     height: 1200px;
 }
 
@@ -231,7 +249,7 @@ input {
 }
 .footer-container {
     
-    width: 1400px;
+    width: var(--screenwidth);
     height: 249px;
     display: flex;
     justify-content: space-between;

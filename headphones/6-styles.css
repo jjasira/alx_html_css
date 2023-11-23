@@ -36,6 +36,24 @@ h1, h2 {
     line-height: normal;
 }
 
+@media screen and (max-width: 768px){
+    .reviews-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
 /* 1 header styles */
 header {
     background-image: url("./images/headphones_hero_1.jpg");
