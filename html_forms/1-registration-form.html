@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post" id="registrationForm">
+      <div class="simple-form">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" name="name" required />
+      </div>
+      <div class="simple-form">
+        <label for="emal">Enter Your Email:</label>
+        <input type="email" name="email" required />
+      </div>
+      <div class="simple-form">
+        <label for="password">Enter a password:</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div class="simple-form">
+        <label for="confirmpassword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmpassword"
+          name="confirmpassword"
+          required
+        />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <script>
+      document
+        .getElementById("registrationForm")
+        .addEventListener("input", function () {
+          let password = document.getElementById("password");
+          let confirmPassword = document.getElementById("confirmPassword");
+
+          if (password.value !== confirmPassword.value) {
+            confirmPassword.setCustomValidity("Passwords must match.");
+          } else {
+            confirmPassword.setCustomValidity("");
+          }
+        });
+    </script>
+  </body>
+</html>
