@@ -6,7 +6,12 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="" id="feedBackForm">
+    <form
+      action="#"
+      method="post"
+      id="feedBackForm"
+      onsubmit="return validateForm()"
+    >
       <div class="simple-form">
         <label for="name">Enter Your Name:</label>
         <input type="text" name="name" required />
